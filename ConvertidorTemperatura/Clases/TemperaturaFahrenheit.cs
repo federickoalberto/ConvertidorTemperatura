@@ -8,9 +8,7 @@ namespace ConvertidorTemperatura.Clases
 {
     public class TemperaturaFahrenheit
     {
-        public double valorFahrenheit { get; set; }
         public double resultadoCelsius { get; set; }
-
         public double ConvertirACelsius(double valorFahrenheit)
         {
             resultadoCelsius = (valorFahrenheit - 32) * 5 / 9;

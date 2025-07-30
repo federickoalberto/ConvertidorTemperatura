@@ -8,7 +8,6 @@ namespace ConvertidorTemperatura.Clases
 {
     public class TemperaturaCelsius
     {
-        public double valorCelsius { get; set; }
         public double resultadoFahrenheit { get; set; }
         public double ConvertirAFahrenheit(double valorCelsius)
         {
